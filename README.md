@@ -7,7 +7,7 @@ A barebones Node.js app using [Express 4](http://expressjs.com/).
 
 ## Getting Started
 ### Clone Project
-you can create a new project based on Mocha-Chai-tutorial by doing the following:
+you can create a new project based on express-web-demo by doing the following:
 
 ```bash
 git clone https://github.com/andy6804tw/express-web-demo.git # or clone your own fork
@@ -36,6 +36,8 @@ After completing the [installation](#installation) step, you're ready to start t
 
 `npm start` running locally! Your app should now be running on [localhost:5000](http://localhost:5000/).
 
+## LICENSE
+MIT
 
 [travis-image]: https://travis-ci.org/andy6804tw/express-web-demo.svg?branch=master
 [travis-url]: https://travis-ci.org/andy6804tw/express-web-demo
