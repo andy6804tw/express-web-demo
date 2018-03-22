@@ -1,32 +1,44 @@
-# Heroku Flow Demo
+[![GitHub license][travis-image]][travis-url]
+[![GitHub license][license-image]][license-url]
+[![Coverage Status](https://coveralls.io/repos/github/andy6804tw/express-web-demo/badge.svg?branch=master)](coverage-url)
+# 使用 express 部署靜態網站
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
 
-## Running Locally
+## Getting Started
+### Clone Project
+you can create a new project based on Mocha-Chai-tutorial by doing the following:
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
-
-```sh
-git clone git@github.com:heroku/button-sample.git # or clone your own fork
-cd button-sample
-npm install
-npm start
+```bash
+git clone https://github.com/andy6804tw/express-web-demo.git # or clone your own fork
+cd express-web-demo
 ```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+### Installation
+When that's done, install the project dependencies.You can use npm or yarn(recommended) for dependency management。
 
-## Deploying to Heroku
+Make sure you have [Node.js](http://nodejs.org/) installed.
 
+```bash
+$ npm install
 ```
-heroku create
-git push heroku master
-heroku open
-```
 
-Alternatively, you can deploy your own copy of the app using this button:
+### Running the Project
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+After completing the [installation](#installation) step, you're ready to start the project 
 
-## Documentation
+| script | Description |
+| ------| ------ |
+| start | Serves your app at localhost:5000 |
+| test | Runs unit tests with mocha  |
+| coverage | using istanbuljs/ync calculate coverage |
 
-For more information about using Heroku, check out https://devcenter.heroku.com/
+
+`npm start` running locally! Your app should now be running on [localhost:5000](http://localhost:5000/).
+
+
+[travis-image]: https://travis-ci.org/andy6804tw/express-web-demo.svg?branch=master
+[travis-url]: https://travis-ci.org/andy6804tw/express-web-demo
+[license-image]: https://img.shields.io/npm/l/express.svg?registry_uri=https%3A%2F%2Fregistry.npmjs.com
+[license-url]: https://github.com/andy6804tw/express-web-demo/blob/master/LICENSE
+[coverage-url]:https://coveralls.io/github/andy6804tw/express-web-demo?branch=master

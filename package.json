@@ -1,11 +1,12 @@
 {
-  "name": "node-js-sample",
-  "version": "0.1.0",
+  "name": "express-web-demo",
+  "version": "1.0.0",
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "mocha --reporter tap"
+    "test": "nyc mocha --timeout 1000",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
     "chai": "^3.5.0",
@@ -20,17 +21,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
+    "url": "git+https://github.com/andy6804tw/express-web-demo.git"
   },
   "keywords": [
     "node",
-    "heroku",
     "express"
   ],
-  "author": "Mark Pundsack",
-  "contributors": [
-    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
-    "Hector Simpson <hector@heroku.com> (http://heroku.com)"
-  ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "nyc": "^11.6.0"
+  }
 }
