@@ -1,6 +1,6 @@
 [![GitHub license][travis-image]][travis-url]
 [![GitHub license][license-image]][license-url]
-[![Coverage Status](https://coveralls.io/repos/github/andy6804tw/express-web-demo/badge.svg?branch=master)](coverage-url)
+[![Coverage Status](https://coveralls.io/repos/github/andy6804tw/express-web-demo/badge.svg?branch=master)](https://coveralls.io/github/andy6804tw/express-web-demo?branch=master)
 # 使用 express 部署靜態網站
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
@@ -43,4 +43,3 @@ MIT
 [travis-url]: https://travis-ci.org/andy6804tw/express-web-demo
 [license-image]: https://img.shields.io/npm/l/express.svg?registry_uri=https%3A%2F%2Fregistry.npmjs.com
 [license-url]: https://github.com/andy6804tw/express-web-demo/blob/master/LICENSE
-[coverage-url]:https://coveralls.io/github/andy6804tw/express-web-demo?branch=master
